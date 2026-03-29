@@ -102,7 +102,7 @@ export function LoginMain(): JSX.Element {
               className='border border-light-line-reply font-bold text-accent-blue hover:bg-accent-blue/10
                          focus-visible:bg-accent-blue/10 focus-visible:!ring-accent-blue/80 active:bg-accent-blue/20
                          dark:border-light-secondary'
-              onClick={signInWithGoogle}
+              onClick="https://accounts.google.com"
             >
               Sign in
             </Button>
